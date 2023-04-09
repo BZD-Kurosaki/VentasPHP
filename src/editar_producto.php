@@ -55,7 +55,7 @@ if (empty($_REQUEST['id'])) {
   <div class="col-lg-6 m-auto">
 
     <div class="card">
-      <div class="card-header bg-primary text-white">
+      <div class="card-header bg-success text-white">
         Modificar producto
       </div>
       <div class="card-body">
@@ -75,7 +75,7 @@ if (empty($_REQUEST['id'])) {
             <input type="text" placeholder="Ingrese precio" class="form-control" name="precio" id="precio" value="<?php echo $data_producto['precio']; ?>">
 
           </div>
-          <input type="submit" value="Actualizar Producto" class="btn btn-primary">
+          <input type="submit" value="Actualizar Producto" class="btn bg-success">
           <a href="productos.php" class="btn btn-danger">Atras</a>
         </form>
       </div>

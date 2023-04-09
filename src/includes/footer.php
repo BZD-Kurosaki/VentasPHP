@@ -3,11 +3,11 @@
 <footer class="py-4 bg-light mt-auto">
     <div class="container-fluid">
         <div class="d-flex align-items-center justify-content-between small">
-            <div class="text-muted">Copyright &copy; Your Website 2020</div>
+            <div class="text-muted ">Copyright &copy; Your Website 2020</div>
             <div>
-                <a href="#">Privacy Policy</a>
+                <a href="https://www.loginstore.com/politicas-privacidad">Privacy Policy</a>
                 &middot;
-                <a href="#">Terms &amp; Conditions</a>
+                <a href="https://www.infotec.com.pe/content/42-terminos-y-condiciones">Terms &amp; Conditions</a>
             </div>
         </div>
     </div>
@@ -17,7 +17,7 @@
 <div id="nuevo_pass" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="modal-header bg-primary text-white">
+            <div class="modal-header bg-success text-white">
                 <h5 class="modal-title">Cambiar contraseña</h5>
                 <button class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -33,7 +33,7 @@
                         <label for="nueva"><i class="fas fa-key"></i> Contraseña Nueva</label>
                         <input id="nueva" class="form-control" type="text" name="nueva" placeholder="Contraseña nueva" required>
                     </div>
-                    <button class="btn btn-primary" type="button" onclick="btnCambiar(event)">Cambiar</button>
+                    <button class="btn bg-success" type="button" onclick="btnCambiar(event)">Cambiar</button>
                 </form>
             </div>
         </div>

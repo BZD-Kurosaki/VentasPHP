@@ -41,7 +41,7 @@ if (empty($existe) && $id_user != 1) {
             </div>
         </div>
         <div class="card">
-            <div class="card-header bg-primary text-white text-center">
+            <div class="card-header bg-success text-white text-center">
                 Datos Venta
             </div>
             <div class="card-body">
@@ -59,7 +59,7 @@ if (empty($existe) && $id_user != 1) {
                             </div>
                             <div class="card-body">
                                 <div class="form-group">
-                                    <input id="producto" class="form-control" type="text" name="producto" placeholder="Ingresa el código o nombre">
+                                    <input id="producto" class="form-control" type="text" name="producto" placeholder="Ingresa el código o el nombre">
                                 </div>
                             </div>
                         </div>
@@ -94,7 +94,7 @@ if (empty($existe) && $id_user != 1) {
         </div>
     </div>
     <div class="col-md-6">
-        <a href="#" class="btn btn-primary" id="btn_generar"><i class="fas fa-save"></i> Generar Venta</a>
+        <a href="#" class="btn bg-success" id="btn_generar"><i class="fas fa-save"></i> Generar Venta</a>
     </div>
 
 </div>

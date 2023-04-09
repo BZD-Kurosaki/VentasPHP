@@ -46,7 +46,7 @@ if (!empty($_POST)) {
 <div class="row">
     <div class="col-lg-6 m-auto">
         <div class="card">
-            <div class="card-header bg-primary">
+            <div class="card-header bg-success">
                 Agregar Producto
             </div>
             <div class="card-body">
@@ -69,7 +69,7 @@ if (!empty($_POST)) {
                         <input type="number" placeholder="Ingrese cantidad" name="cantidad" id="cantidad" class="form-control">
                     </div>
 
-                    <input type="submit" value="Actualizar" class="btn btn-primary">
+                    <input type="submit" value="Actualizar" class="btn bg-success">
                     <a href="productos.php" class="btn btn-danger">Regresar</a>
                 </form>
             </div>

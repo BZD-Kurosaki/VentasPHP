@@ -47,34 +47,34 @@ if (!empty($_SESSION['active'])) {
     <script src="assets/js/all.min.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-primary">
+<body class="bg-success">
     <div id="layoutAuthentication">
         <div id="layoutAuthentication_content">
             <main>
                 <div class="container">
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center ">
                         <div class="col-lg-5">
                             <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                <div class="card-header text-center">
+                                <div class="card-header text-center bg-secondary">
                                     <img class="img-thumbnail" src="assets/img/logo.png" width="100">
-                                    <h3 class="font-weight-light my-4">Iniciar Sesión</h3>
+                                    <h3 class="font-weight-light my-4">𝑰𝒏𝒊𝒄𝒊𝒂𝒓 𝑺𝒆𝒔𝒊ó𝒏</h3>
                                 </div>
-                                <div class="card-body">
+                                <div class="card-body bg-secondary">
                                     <form action="" method="POST">
                                         <div class="form-group">
                                             <label class="small mb-1" for="usuario"><i class="fas fa-user"></i> Usuario</label>
-                                            <input class="form-control py-4" id="usuario" name="usuario" type="text" placeholder="Ingrese usuario" required />
+                                            <input class="form-control py-4" id="usuario" name="usuario" type="text" placeholder="Ingresa usuario" required />
                                         </div>
                                         <div class="form-group">
                                             <label class="small mb-1" for="clave"><i class="fas fa-key"></i> Contraseña</label>
-                                            <input class="form-control py-4" id="clave" name="clave" type="password" placeholder="Ingrese Contraseña" required />
+                                            <input class="form-control py-4" id="clave" name="clave" type="password" placeholder="Ingresa Contraseña" required />
                                         </div>
                                         <div class="alert alert-danger text-center d-none" id="alerta" role="alert">
 
                                         </div>
                                         <?php echo isset($alert) ? $alert : ''; ?>
                                         <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
-                                            <button class="btn btn-primary" type="submit">Login</button>
+                                            <button class="btn bg-success" type="submit">Login</button>
                                         </div>
                                     </form>
                                 </div>
@@ -85,14 +85,14 @@ if (!empty($_SESSION['active'])) {
             </main>
         </div>
         <div id="layoutAuthentication_footer">
-            <footer class="py-4 bg-light mt-auto">
+            <footer class="py-4 bg-dark mt-auto">
                 <div class="container-fluid">
                     <div class="d-flex align-items-center justify-content-between small">
                         <div class="text-muted">Copyright &copy; <a href="http://angelsifuentes.com/" target="_blank" rel="noopener noreferrer">Visite mi página web</a> <?php echo date("Y"); ?></div>
                         <div>
-                            <a href="#">Privacy Policy</a>
+                            <a href="https://www.loginstore.com/politicas-privacidad">Privacy Policy</a>
                             &middot;
-                            <a href="#">Terms &amp; Conditions</a>
+                            <a href="https://www.infotec.com.pe/content/42-terminos-y-condiciones">Terms &amp; Conditions</a>
                         </div>
                     </div>
                 </div>
@@ -102,6 +102,9 @@ if (!empty($_SESSION['active'])) {
     <script src="assets/js/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <script src="assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="assets/js/scripts.js"></script>
+
+    
+
 </body>
 
 </html>

@@ -35,7 +35,7 @@ if ($_POST) {
 <div class="row">
 <div class="col-md-6 mx-auto">
             <div class="card">
-                <div class="card-header bg-primary text-white">
+                <div class="card-header bg-success text-white">
                     Datos de la Empresa
                 </div>
                 <div class="card-body">
@@ -59,7 +59,7 @@ if ($_POST) {
                         </div>
                         <?php echo isset($alert) ? $alert : ''; ?>
                         <div>
-                            <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Modificar Datos</button>
+                            <button type="submit" class="bg-success"><i class="fas fa-save"></i> Modificar Datos</button>
                         </div>
 
                     </form>

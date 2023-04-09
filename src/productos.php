@@ -40,7 +40,7 @@ if (empty($existe) && $id_user != 1) {
         }
     }
     ?>
- <button class="btn btn-primary mb-2" type="button" data-toggle="modal" data-target="#nuevo_producto"><i class="fas fa-plus"></i></button>
+ <button class="btn bg-success mb-2" type="button" data-toggle="modal" data-target="#nuevo_producto"><i class="fas fa-plus"></i></button>
  <?php echo isset($alert) ? $alert : ''; ?>
  <div class="table-responsive">
      <table class="table table-striped table-bordered" id="tbl">
@@ -97,7 +97,7 @@ if (empty($existe) && $id_user != 1) {
  <div id="nuevo_producto" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
      <div class="modal-dialog" role="document">
          <div class="modal-content">
-             <div class="modal-header bg-primary text-white">
+             <div class="modal-header bg-success text-white">
                  <h5 class="modal-title" id="my-modal-title">Nuevo Producto</h5>
                  <button class="close" data-dismiss="modal" aria-label="Close">
                      <span aria-hidden="true">&times;</span>
@@ -123,7 +123,7 @@ if (empty($existe) && $id_user != 1) {
                          <label for="cantidad">Cantidad</label>
                          <input type="number" placeholder="Ingrese cantidad" class="form-control" name="cantidad" id="cantidad">
                      </div>
-                     <input type="submit" value="Guardar Producto" class="btn btn-primary">
+                     <input type="submit" value="Guardar Producto" class="btn bg-success">
                  </form>
              </div>
          </div>

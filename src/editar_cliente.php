@@ -50,7 +50,7 @@ if ($result_sql == 0) {
     <div class="row">
         <div class="col-lg-6 m-auto">
             <div class="card">
-                <div class="card-header bg-primary text-white">
+                <div class="card-header bg-success text-white">
                     Modificar Cliente
                 </div>
                 <div class="card-body">
@@ -76,7 +76,7 @@ if ($result_sql == 0) {
                             <label for="direccion">Dirección</label>
                             <input type="text" placeholder="Ingrese Direccion" name="direccion" class="form-control" id="direccion" value="<?php echo $direccion; ?>">
                         </div>
-                        <button type="submit" class="btn btn-primary"><i class="fas fa-user-edit"></i> Editar Cliente</button>
+                        <button type="submit" class="btn bg-success"><i class="fas fa-user-edit"></i> Editar Cliente</button>
                         <a href="clientes.php" class="btn btn-danger">Atras</a>
                     </form>
                 </div>

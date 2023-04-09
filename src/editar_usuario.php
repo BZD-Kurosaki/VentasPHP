@@ -43,7 +43,7 @@ if ($result_sql == 0) {
 <div class="row">
     <div class="col-md-6 mx-auto">
         <div class="card">
-            <div class="card-header bg-primary text-white">
+            <div class="card-header bg-success text-white">
                 Modificar Usuario
             </div>
             <div class="card-body">
@@ -65,7 +65,7 @@ if ($result_sql == 0) {
                         <input type="text" placeholder="Ingrese usuario" class="form-control" name="usuario" id="usuario" value="<?php echo $usuario; ?>">
 
                     </div>
-                    <button type="submit" class="btn btn-primary"><i class="fas fa-user-edit"></i></button>
+                    <button type="submit" class="btn bg-success"><i class="fas fa-user-edit"></i></button>
                     <a href="usuarios.php" class="btn btn-danger">Atras</a>
                 </form>
             </div>

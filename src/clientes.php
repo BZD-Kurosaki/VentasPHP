@@ -42,7 +42,7 @@ if (!empty($_POST)) {
     mysqli_close($conexion);
 }
 ?>
-<button class="btn btn-primary mb-2" type="button" data-toggle="modal" data-target="#nuevo_cliente"><i class="fas fa-plus"></i></button>
+<button class="btn bg-success mb-2" type="button" data-toggle="modal" data-target="#nuevo_cliente"><i class="fas fa-plus"></i></button>
 <?php echo isset($alert) ? $alert : ''; ?>
 <div class="table-responsive">
     <table class="table table-striped table-bordered" id="tbl">
@@ -94,7 +94,7 @@ if (!empty($_POST)) {
 <div id="nuevo_cliente" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="modal-header bg-primary text-white">
+            <div class="modal-header bg-success text-white">
                 <h5 class="modal-title" id="my-modal-title">Nuevo Cliente</h5>
                 <button class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -115,7 +115,7 @@ if (!empty($_POST)) {
                         <label for="direccion">Dirección</label>
                         <input type="text" placeholder="Ingrese Direccion" name="direccion" id="direccion" class="form-control">
                     </div>
-                    <input type="submit" value="Guardar Cliente" class="btn btn-primary">
+                    <input type="submit" value="Guardar Cliente" class="btn bg-success">
                 </form>
             </div>
         </div>

@@ -40,11 +40,11 @@ if (!empty($_POST)) {
     }
 }
 ?>
-<button class="btn btn-primary" type="button" data-toggle="modal" data-target="#nuevo_usuario"><i class="fas fa-plus"></i></button>
+<button class="btn bg-success" type="button" data-toggle="modal" data-target="#nuevo_usuario"><i class="fas fa-plus"></i></button>
 <div id="nuevo_usuario" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="modal-header bg-primary text-white">
+            <div class="modal-header bg-success text-white">
                 <h5 class="modal-title" id="my-modal-title">Nuevo Usuario</h5>
                 <button class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -69,7 +69,7 @@ if (!empty($_POST)) {
                         <label for="clave">Contraseña</label>
                         <input type="password" class="form-control" placeholder="Ingrese Contraseña" name="clave" id="clave">
                     </div>
-                    <input type="submit" value="Registrar" class="btn btn-primary">
+                    <input type="submit" value="Registrar" class="btn bg-success">
                 </form>
             </div>
         </div>
